@@ -1,0 +1,24 @@
+.title {
+  text-align: center;
+}
+
+.card {
+  height: max-content;
+  width: 200px;
+  text-align: center;
+  border: 12px solid purple;
+  margin: 100px;
+  background-color: green;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100vw;
+  height: max-content;
+  align-items: center;
+  align-content: space-around;
+  background-image: url("http://www.thestar.com/content/dam/thestar/life/parent/2013/02/03/two_stars_and_a_wish_parents_know_best/star.jpg.size.xxlarge.letterbox.jpg");
+}
